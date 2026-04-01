@@ -1,30 +1,72 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./styles.css">
+    <title>Nathan Batallé | Portfolio DAM</title>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/styles.css">
 </head>
 <body>
 
-    <h1>Nathan Batallé</h1>
-    <h2>Estudiante de primero de Desarrollo de Aplicaciones Multiplataforma</h2>
-
-    <section>
-        <h3>Sobre mi:</h3>
-        <p>Soy estudiande de primero de DAM, etc etc</p>
-    </section>
-
-    <section>
-        <h3>Proyectos:</h3>
-        <div>
-            <h4></h4>
-
-        </div>
+    <aside id="panel-lateral">
+        <img src="./img/hollow-knight-switch.jpg.avif" alt="Nathan Batallé" class="foto-perfil">
         
+        <h1>Nathan Batallé</h1>
+        <p class="etiqueta-rol">Estudiante DAM • Backend Dev</p>
         
-    </section>
-    
+        <nav>
+            <a href="mailto:nathanbatallecuenda@gmail.com" class="link-menu">EMAIL</a>
+            <a href="https://www.linkedin.com/in/nathan-batall%C3%A9-cuenda/" target="_blank" class="link-menu">LINKEDIN ↗</a>
+        </nav>
+
+        <a href="./docs/CV Nathan_Batallé.pdf" class="boton-pdf" download>DESCARGAR CV (PDF)</a>
+    </aside>
+
+    <main id="cuerpo-principal">
+        <section id="sobre-mi">
+            <h2>Sobre mí</h2>
+            <p class="texto-presentacion">
+                Estudiante de 1º de DAM enfocado en Backend y Bases de Datos.
+                <br/>
+                <br/>
+                Actualmente centrado en el desarrollo con Java y en el diseño de estructuras relacionales en SQL.
+                <br/>
+                <br/>
+                Cuento con 5 años de experiencia laboral previa en entornos de alta responsabilidad, aportando una metodología de trabajo basada en el orden y la resolución de problemas.
+            </p>
+        </section>
+
+        <section id="seccion-proyectos">
+            <h2>Proyectos Destacados</h2>
+            
+            <div class="tarjeta-proyecto">
+                <div class="fila-lenguajes">
+                    <span class="badget">JAVA</span> 
+                    <span class="badget">BACKEND</span>
+                    <span class="badget">POO</span>
+                </div>
+                <h3>Simulador de Batalla por Turnos</h3>
+                <p>Motor de combate RPG por turnos desarrollado en Java. Aplicación de POO avanzado, polimorfismo y gestión dinámica de estados de personajes.</p>
+                <a href="https://github.com/NathanBacu/RPG-Java-POO" class="enlace-codigo" target="_blank">Explorar repositorio →</a>
+            </div>
+
+            <div class="tarjeta-proyecto">
+                <div class="fila-lenguajes">
+                    <span class="badget">SQL</span> 
+                    <span class="badget">MySQL</span>
+                    <span class="badget">Optimización</span>
+                </div>
+                <h3>Proyecto en curso</h3>
+                <p>...</p>
+                <a href="#" class="enlace-codigo">Ver diagrama ER →</a>
+            </div>
+        </section>
+
+        <footer class="pie-pagina">
+            <span>Nathan Batallé • 2026</span>
+        </footer>
+    </main>
+
 </body>
 </html>
